@@ -1,0 +1,97 @@
+body{
+  background: #ffeedd;
+}
+.forma{
+  position: absolute;
+  left: 20px;
+  top:20px;
+  width: 15%;
+  height: 40%;
+  background: #ddeeff;
+  border: solid blue 5px;
+}
+.forma h1{
+  margin:10px 0 0 0;
+  text-align: center;
+  color:darkblue;
+}
+.box{
+  text-align: left;
+  color:darkblue;
+  font-size: 20px;
+}
+.forma hr{
+  height: 3px;
+  background: red;
+  border: none;
+}
+.text{
+  text-align: none;
+  color:darkblue;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+}
+#login,#password,#bth{
+  color:red;
+  font-size: 25px;
+  width: 96%;
+  height: 30px;
+  margin-left: 1px;
+}
+#check{
+  width: 17px;
+  height:17px;
+}
+#bth{
+  background: #010042;
+  color:#fff;
+  margin-left: 5px;
+  height: 35px;
+  transition-duration: .5s;
+  transition-property: color background;
+}
+.postIn,.postOut{
+  text-align: center;
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  background: #ddeeff;
+  border: solid blue 5px;
+}
+.postIn{
+  visibility: hidden;
+  left: 20px;
+  bottom: 20px;
+}
+.email{
+  margin:0;
+  color:darkblue;
+  font-size: 25px;
+}
+#in,#out{
+  width: 98%;
+  height: 200px;
+  font-size: 20px;
+  color:blue;
+}
+#bthEm{
+  width: 150px;
+  background: #010042;
+  color:#fff;
+  height: 35px;
+  font-size: 20px;
+  transition-property: color background;
+}
+.postOut{
+  bottom: 20px;
+  right: 20px;
+}
+#bth:hover{
+  color:blue;
+  background: yellow;
+}
+#bthEm:hover{
+  color:blue;
+  background: yellow;
+}

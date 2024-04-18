@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="windows-1251">
+    <title>Лабораторна робота 6</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="script1.js"></script>
+  </head>
+  <body onload="start()">
+    <div class="forma">
+      <h1>Пошта</h1>
+      <hr>
+      <form>
+        <em class="text">Логин</em><br>
+        <input type="text" id="login"><br>
+        <em class="text">Пароль</em><br>
+        <input type="password" id="password"><br>
+        <input type="checkbox" id="check"><em class="box">Запам'ятай мене</em><br>
+        <input type="button" value="Увійти" id="bth" onclick="logIn()"><br>
+      </form>
+    </div>
+    <div class="postIn" id="visible">
+      <h1 class="email">Напишить листа</h1>
+      <form>
+        <textarea id="in" style = "resize: none;"></textarea><br>
+        <input type="button" value="Відправити" id="bthEm" onclick="send()">
+      </form>
+    </div>
+    <div class="postOut">
+      <h1 class="email">Отримувач</h1>
+      <form>
+        <textarea id="out" readonly style = "resize: none;"></textarea><br>
+      </form>
+    </div>
+  </body>
+</html>
